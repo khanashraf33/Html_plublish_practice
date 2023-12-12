@@ -1,0 +1,41 @@
+.icon4{
+    padding: 0px !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.newnav2{
+    font-size: 30px;
+    text-align: center;
+}
+.newnav2{
+    display: none;
+}
+.animate{
+    display: none;
+}
+.icon5{
+    display: none;
+}
+
+
+
+
+@media (max-width: 965px) {
+
+    .animate{
+        display: block;
+    }
+    #navdivhide{
+        display: none;
+    }
+    .icon4{
+        display: none;
+    }
+    .icon5{
+        display: block;
+    }
+    .newnav1{
+        display: none;
+    }
+}

@@ -1,0 +1,84 @@
+    /* Navbar styles */
+    .navbar1 {
+        background-color: white;
+    }
+
+    .welcome{
+        text-align: center;
+    }
+
+  
+    .icon1{
+        display: none;
+    }
+
+    .navbar1 a {
+        display: flow;
+        color: grey;
+        text-align: center;
+        padding: 0px 5px;
+        margin: 0px;
+        text-decoration: none;
+    }
+
+
+
+    .responsive1{
+      display: none;
+    }
+
+    /* Hamburger icon */
+
+    .icon1 {
+        cursor: pointer;
+        color: grey;
+        padding: 10px;
+        font-size: 24px;
+        right: auto;
+    }
+
+    .icon3 {
+        cursor: pointer;
+        color: grey;
+        padding: 10px;
+        font-size: 24px;
+        right: auto;
+    }
+
+    /* Navbar links on small screens */
+    @media (max-width: 1040px) {
+      .navbar1 a:not(.icon1) {
+          display: none;
+      }
+
+  
+      .navbar1 a.icon1 {
+          float: left;
+          display: block;
+      }
+  
+      .responsive1 {
+          display: none;
+          position: relative;
+          font-size: large;
+          font-weight: bold;
+          top: 0px;
+          right: 0;
+          background-color: rgb(245, 240, 231);
+          z-index: 3;
+      }
+  
+      .responsive1.show {
+          display: block;
+      }
+  
+      .responsive1.show a {
+          display: block;
+          text-align: center;
+          text-decoration: none;
+          color: black;
+      }
+  }
+
+
+

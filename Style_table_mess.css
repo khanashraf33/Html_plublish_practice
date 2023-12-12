@@ -1,0 +1,78 @@
+
+
+#adjRight.col-lg-7{
+  width: 64% ;
+}
+.marketData{
+    color: rgb(215, 0, 64);
+    font-weight:bold;
+    font-size: 30px; 
+    tab-size: 100%;
+}
+.newrstb{
+  display: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid rgb(215, 0, 64);
+    background-color: darkgrey;
+    padding-right: 5px;
+  }
+  .tdhead {
+    color: rgb(215, 0, 64);
+    font-weight:bold;
+    background-color: lightgray;
+    text-indent: 10px;
+}
+  table tr td{
+    border-bottom: 1px solid grey;
+  }
+  th {
+    color: white;
+    background-color: rgb(215, 0, 64);
+  }
+  .PricePerformanceWeekly{
+    color: rgb(215, 0, 64);
+    font-weight:bold;
+    font-size: 25px; 
+    tab-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #myTable td, th{
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    text-indent: 10px;
+  }
+  .sourceBloomberg{
+    text-indent: 10px;
+  }
+.tableSmall{
+  display: none;
+}
+
+
+
+@media (max-width: 992px) {
+  #adjRight.col-lg-7{
+    width: 100% ;
+  }
+}
+@media (max-width: 576px) {
+  .tableSmall{
+    display: block;
+  }
+  .tableBig{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .newrstb{
+    display: block;
+  }
+  
+}

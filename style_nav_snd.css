@@ -1,0 +1,70 @@
+    /* Navbar styles */
+    .navbar2 {
+        background-color: rgb(245, 240, 231);
+    }
+
+  
+
+
+    .navbar2 a {
+        display: flow;
+        color: grey;
+        text-align: center;
+        padding: 0px 5px;
+        margin: 0px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+
+    .responsive2{
+      display: none;
+    }
+
+
+    /* Hamburger icon */
+
+    .icon2 {
+        cursor: pointer;
+        color: grey;
+        padding: 10px;
+        font-size: 24px;
+        nav-index: auto;
+
+    }
+    /* Navbar links on small screens */
+    @media (max-width: 766px) {
+      .navbar2 a:not(.icon2) {
+          display: none;
+      }
+
+  
+      .navbar2 a.icon2 {
+          float: left;
+          display: block;
+      }
+  
+      .responsive2 {
+          display: none;
+          position: relative;
+          font-size: large;
+          font-weight: bold;
+          top: 0px;
+          right: 0;
+          background-color: rgb(245, 240, 231);
+          z-index: 1;
+      }
+  
+      .responsive2.show2 {
+          display: block;
+      }
+  
+      .responsive2.show2 a {
+          display: block;
+          text-align: center;
+          text-decoration: none;
+          color: black;
+      }
+  }
+

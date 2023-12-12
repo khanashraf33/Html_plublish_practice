@@ -1,0 +1,79 @@
+
+
+/* all style for chola mandalam*/
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1{
+  height: 200px;
+  background-color: rgb(228, 223, 213);
+  min-width: calc(100% / 12);
+}
+.item2{
+  height: 200px;
+  background-color: rgb(216, 208, 195); 
+  font-size: 40px; 
+  font-weight:bolder;
+  color: rgb(215, 0, 64);
+  min-width: calc(100% * 2 / 12);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.item3{
+  height: 200px;
+  background-color: rgb(228, 223, 213);
+  min-width: calc(100% * 9 / 12);
+}
+.item31{  
+
+
+  height: 150px;
+  align-items: end; 
+  font-size: 30px; 
+  font-weight:bold;
+  width: 100%;
+  color: rgb(215, 0, 64);
+  display: flex;
+  text-align: center;      
+  justify-content: center;
+}
+.item32{
+  height: 50px;
+  align-items:start; 
+  width: 100%; 
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 965px) {
+    .container1 {
+        flex-direction: column; /* Change to a column layout */
+        flex: auto;
+        min-width: unset; /* Reset minimum width */
+    }
+    div.item1{
+      height: 0px;
+    }
+    div.item2{
+      height: 50px;
+      background-color: rgb(228, 223, 213);
+    }
+    div.item3{
+      height: 150px;
+      background-color: rgb(228, 223, 213);
+    }
+    div.item31{
+      height: 100px;
+      background-color: rgb(228, 223, 213);
+    }
+    div.item32{
+      height: 50px;
+      background-color: rgb(228, 223, 213);
+    }
+
+}
